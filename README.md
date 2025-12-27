@@ -36,6 +36,14 @@ The objective of this project is to demonstrate backend fundamentals such as API
 - List collaboration events
 - Simulated real-time behavior via APIs
 
+### Project Structure
+backend-assessment
+│
+├── app                 # Flask application (main backend logic)
+├── README.md           # Project documentation
+├── .gitignore          # Ignored files and folders
+└── venv/               # Virtual environment (local, not pushed to GitHub)
+
 ## API Endpoints
 
 ### Authentication
@@ -92,6 +100,7 @@ http://127.0.0.1:5000
 - Implement WebSocket-based real-time collaboration
 - Containerize the application using Docker
 - Add automated tests and CI/CD pipeline
+
 
 
 
